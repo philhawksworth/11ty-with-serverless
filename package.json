@@ -1,6 +1,6 @@
 {
   "name": "scaffold-plus-serverless",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A basic scaffold for an 11ty site with Sass pipeline and Netlify serverless functions",
   "scripts": {
     "build": "eleventy",
@@ -9,12 +9,19 @@
     "dev": "ntl dev",
     "dmc": "ntl dev"
   },
-  "keywords": ["eleventy", "11ty", "scaffold", "ssg", "serverless", "netlify"],
+  "keywords": [
+    "eleventy",
+    "11ty",
+    "scaffold",
+    "ssg",
+    "serverless",
+    "netlify"
+  ],
   "author": "Phil Hawksworth <phil@netlify.com>",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
-    "dotenv": "^8.2.0",
+    "axios": "^0.21.1",
     "sass": "^1.29.0"
   }
 }

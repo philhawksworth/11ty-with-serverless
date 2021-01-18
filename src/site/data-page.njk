@@ -1,0 +1,13 @@
+---
+title: Data example page
+layout: layouts/base.njk
+---
+
+<h1>11ty Scaffold with Netlify Functions - Data example</h1>
+<p>Showing data returned from a <a href="https://www.hawksworx.com/feed.json">remote request</a> at build time</p>
+<ul>
+  {%- for item in hawksworx.entries.slice(0,5) -%}
+  <li><a href="{{ item.link }}">{{ item.title }}</a></li>
+  {%- endfor -%}
+</ul>
+
