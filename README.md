@@ -20,3 +20,9 @@ npx 11up@latest
 
 # ...select "scaffold-plus-serverless" from the available templates when prompted
 ```
+
+## 👉 Try out a deploy
+
+You can also try cloning this tempalte repo and deploying it to [Netlify](https://www.netlify.com/?utm_source=github&utm_medium=11up-pnh&utm_campaign=devex) automatically by clicking the Deploy Button below.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/11ty-with-serverless&utm_source=github&utm_medium=11up-pnh&utm_campaign=devex)
