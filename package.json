@@ -2,6 +2,10 @@
   "name": "scaffold-plus-serverless",
   "version": "0.1.1",
   "description": "A basic scaffold for an 11ty site with Sass pipeline and Netlify serverless functions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philhawksworth/11ty-with-serverless"
+  },
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",
