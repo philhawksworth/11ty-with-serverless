@@ -7,4 +7,4 @@ A starting point for an 11ty site. With:
 - Responsive breakpoints via mixins
 - Image passthrough without optimisation
 - 11ty data cascade with remote data request
-- Serverles functions pipeline with [Netlify Functions](https://netlify.com/functions)
+- Serverless functions pipeline with [Netlify Functions](https://netlify.com/functions)
